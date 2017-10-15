@@ -3,6 +3,8 @@ import { observable, action } from 'mobx';
 import { observer } from 'mobx-react';
 import classNames from 'classnames';
 
+import './style.css';
+
 @observer
 class Header extends Component {
   @observable toggle = false;
